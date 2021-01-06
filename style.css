@@ -1,7 +1,7 @@
 body{
   width: 1340px;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 section{
@@ -22,26 +22,37 @@ section{
 
 .description{
   padding-top: 80px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 h1{
-  font-weight: 700;
   font-size: 50px;
 }
 
 h2{
-  font-weight: 700;
   font-size: 40px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+h1, h2, h3{
+  font-weight: 600;
+  color: #363958;
 }
 
 p{
   color: gray;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .highlight{
   color: tomato;
+}
+
+.description h1{
+  margin: 5px;
 }
 
 .btn {
@@ -60,7 +71,7 @@ p{
 
 .latest-projects h2{
   text-align: center;
-  padding: 100px 0;
+  padding: 130px 0 40px;
 }
 
 .projects {
@@ -69,8 +80,8 @@ p{
 
 .individual-project{
   width: 30%;
-  height: 400px;
-  margin: 0 20px;
+  height: 420px;
+  margin: 10px 20px;
   align-items: center;
   box-shadow: 10px 10px 20px gray;
   border-radius: 10px;
@@ -89,6 +100,28 @@ p{
 }
 
 .chat{
+  width: 70%;
+  margin: 100px auto;
+  height: 300px;
+  background: url("./images/chat-background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.chat h2{
+  color: white;
+  margin: 90px 80px;
+  display: block;
+  float: left;
+}
+.chat a{
+  display: block;  
+  margin: 90px 80px;
+  float: right;
+}
+
+
+/* .chat{
   height: 300px;
   position: relative;
   text-align: center;
@@ -111,4 +144,32 @@ p{
   top: 50%;
   right: 20%;
   color: white;
+} */
+
+#connected {
+  height: auto;
+  text-align: center;
 }
+#connected h3{
+  color: #696871;
+}
+#connected a img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.experience-area h2{
+  text-align: center;
+}
+
+.single-experience{
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 5%;
+  height: 80%;
+}
+#baby-dev{
+  margin-left: 50px;
+}
+
